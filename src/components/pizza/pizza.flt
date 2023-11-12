@@ -1,0 +1,13 @@
+<div class="row trechos-container">
+[#list 1..configuration.quantidadeCards as index]
+	<div class="card column m-1 trechos-container-body">
+		<lfr-editable id="image${index}" type="image"><img class="card-img-top" src="https://placehold.co/285x190" alt="Card image cap"></lfr-editable>
+  
+  <div class="card-body">
+		<lfr-editable id="titulo${index}" type="rich-text"><h5 class="card-title text-center">Card title</h5></lfr-editable>
+    <lfr-editable id="descricao${index}" type="rich-text"><p class="card-text my-3 text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p></lfr-editable>
+    <lfr-editable id="link${index}" type="link"><a href="#" class="btn btn-primary mx-auto">Go somewhere</a></lfr-editable> 
+  </div>
+</div>
+[/#list]
+</div>

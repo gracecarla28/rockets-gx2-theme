@@ -1,0 +1,19 @@
+{
+    "fieldSets": [
+        {
+            "fields": [
+                {
+                    "name": "quantidadeCards",
+                    "label": "Quantidade de cards",
+                    "description": "Quantidade de cards",
+                    "type": "text",
+                    "typeOptions": {
+                        "placeholder": "digite um numero aqui "
+                    },
+                    "dataType": "int",
+                    "defaultValue": "3"
+                }
+            ]
+        }
+    ]
+}

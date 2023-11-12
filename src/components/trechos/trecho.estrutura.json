@@ -1,0 +1,262 @@
+{
+    "availableLanguageIds": [
+        "pt_BR"
+    ],
+    "contentType": "journal",
+    "dataDefinitionFields": [
+        {
+            "customProperties": {
+                "labelAtStructureLevel": true,
+                "ddmStructureLayoutId": "",
+                "ddmStructureId": "",
+                "upgradedStructure": false,
+                "fieldReference": "Fieldset16024897",
+                "rows": [
+                    {
+                        "columns": [
+                            {
+                                "size": 12,
+                                "fields": [
+                                    "Image07327494"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "columns": [
+                            {
+                                "size": 12,
+                                "fields": [
+                                    "Text00254700"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "columns": [
+                            {
+                                "size": 12,
+                                "fields": [
+                                    "Text82784108"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "collapsible": false
+            },
+            "defaultValue": {},
+            "fieldType": "fieldset",
+            "indexable": false,
+            "label": {
+                "pt_BR": "Trechos"
+            },
+            "localizable": false,
+            "name": "Fieldset16024897",
+            "nestedDataDefinitionFields": [
+                {
+                    "customProperties": {
+                        "requiredErrorMessage": {
+                            "pt_BR": ""
+                        },
+                        "visibilityExpression": "",
+                        "fieldNamespace": "",
+                        "objectFieldName": "",
+                        "dataType": "image",
+                        "requiredDescription": true,
+                        "fieldReference": "Image07327494"
+                    },
+                    "defaultValue": {
+                        "pt_BR": {}
+                    },
+                    "fieldType": "image",
+                    "indexType": "text",
+                    "indexable": true,
+                    "label": {
+                        "pt_BR": "Imagem"
+                    },
+                    "localizable": true,
+                    "name": "Image07327494",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "pt_BR": ""
+                    }
+                },
+                {
+                    "customProperties": {
+                        "labelAtStructureLevel": true,
+                        "confirmationErrorMessage": {
+                            "pt_BR": ""
+                        },
+                        "hideField": false,
+                        "autocomplete": false,
+                        "ddmDataProviderInstanceId": [],
+                        "dataType": "string",
+                        "tooltip": {
+                            "pt_BR": ""
+                        },
+                        "requireConfirmation": false,
+                        "displayStyle": "singleline",
+                        "requiredErrorMessage": {
+                            "pt_BR": ""
+                        },
+                        "visibilityExpression": "",
+                        "fieldNamespace": "",
+                        "objectFieldName": "",
+                        "ddmDataProviderInstanceOutput": [],
+                        "options": {
+                            "pt_BR": [
+                                {
+                                    "reference": "Opção45019068",
+                                    "label": "Opção",
+                                    "value": "Opção45019068"
+                                }
+                            ]
+                        },
+                        "nativeField": false,
+                        "confirmationLabel": {
+                            "pt_BR": ""
+                        },
+                        "fieldReference": "trechos",
+                        "placeholder": {
+                            "pt_BR": ""
+                        },
+                        "dataSourceType": "manual",
+                        "direction": [
+                            "vertical"
+                        ]
+                    },
+                    "defaultValue": {
+                        "pt_BR": ""
+                    },
+                    "fieldType": "text",
+                    "indexType": "keyword",
+                    "indexable": true,
+                    "label": {
+                        "pt_BR": "Trechos"
+                    },
+                    "localizable": true,
+                    "name": "Text00254700",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "pt_BR": ""
+                    }
+                },
+                {
+                    "customProperties": {
+                        "labelAtStructureLevel": true,
+                        "confirmationErrorMessage": {
+                            "pt_BR": ""
+                        },
+                        "hideField": false,
+                        "autocomplete": false,
+                        "ddmDataProviderInstanceId": [],
+                        "dataType": "string",
+                        "tooltip": {
+                            "pt_BR": ""
+                        },
+                        "requireConfirmation": false,
+                        "displayStyle": "singleline",
+                        "requiredErrorMessage": {
+                            "pt_BR": ""
+                        },
+                        "visibilityExpression": "",
+                        "fieldNamespace": "",
+                        "objectFieldName": "",
+                        "ddmDataProviderInstanceOutput": [],
+                        "options": {
+                            "pt_BR": [
+                                {
+                                    "reference": "Opção45019068",
+                                    "label": "Opção",
+                                    "value": "Opção45019068"
+                                }
+                            ]
+                        },
+                        "nativeField": false,
+                        "confirmationLabel": {
+                            "pt_BR": ""
+                        },
+                        "fieldReference": "nomeCantor",
+                        "placeholder": {
+                            "pt_BR": ""
+                        },
+                        "dataSourceType": "manual",
+                        "direction": [
+                            "vertical"
+                        ]
+                    },
+                    "defaultValue": {
+                        "pt_BR": ""
+                    },
+                    "fieldType": "text",
+                    "indexType": "keyword",
+                    "indexable": true,
+                    "label": {
+                        "pt_BR": "Nome do Cantor"
+                    },
+                    "localizable": true,
+                    "name": "Text82784108",
+                    "nestedDataDefinitionFields": [],
+                    "readOnly": false,
+                    "repeatable": false,
+                    "required": false,
+                    "showLabel": true,
+                    "tip": {
+                        "pt_BR": ""
+                    }
+                }
+            ],
+            "readOnly": false,
+            "repeatable": true,
+            "required": false,
+            "showLabel": true,
+            "tip": {}
+        }
+    ],
+    "defaultDataLayout": {
+        "dataLayoutFields": {},
+        "dataLayoutPages": [
+            {
+                "dataLayoutRows": [
+                    {
+                        "dataLayoutColumns": [
+                            {
+                                "columnSize": 12,
+                                "fieldNames": [
+                                    "Fieldset16024897"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "description": {
+                    "pt_BR": ""
+                },
+                "title": {
+                    "pt_BR": ""
+                }
+            }
+        ],
+        "dataRules": [],
+        "description": {},
+        "name": {
+            "pt_BR": "Trechos"
+        },
+        "paginationMode": "single-page"
+    },
+    "defaultLanguageId": "pt_BR",
+    "description": {},
+    "name": {
+        "pt_BR": "Trechos"
+    },
+    "storageType": "default"
+}
